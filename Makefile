@@ -2,8 +2,8 @@
 
 build: fill-it
 
-fill-it: fill-it.go
-	go build -o fill-it src/fill-it.go
+fill-it: src/main.go
+	go build -o fill-it src/main.go
 
 clean:
 	rm -f fill-it
